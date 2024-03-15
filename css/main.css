@@ -8,7 +8,7 @@
 .logo{
     margin-left: 1rem;
 }
-
+/* styling the nav bar */
 nav{
     width: 100%;
     display: inline-flex;
@@ -38,7 +38,7 @@ nav ul li a{
 nav ul li a:hover{
     color: orangered;
 }
-
+/* styling banner */
 .banner-img{
     width: 100%;
     margin-top: 1rem;  
@@ -67,7 +67,7 @@ nav ul li a:hover{
 p.download{
     font-weight: normal;
 }
-
+/* button styling */
 .play{
     background-color: orangered;
     border-radius: 3em;
@@ -107,13 +107,7 @@ h2.how{
     border-top: lightgray solid;
     padding-top: 2em;
 }
-
-/* img.login{
-    position: relative;
-    bottom: 15em;
-    margin-left: 7.5em;
-} */
-
+/* styling for columns */
 .column-1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -202,7 +196,7 @@ img.payment{
     position: relative;
     bottom: 40em;
 }
-
+/* footer styles */
 .footer-1{
     position: relative;
     bottom: 40em;
@@ -225,7 +219,7 @@ img.payment{
     position: relative;
     bottom: 3em;
 }
-
+/* contact page styling starts */
 .contact{
     position: relative;
     bottom: 7em;
@@ -279,7 +273,7 @@ textarea{
     max-width: 50%;
     color: grey
 }
-
+/* styling contact page footer */
 .footer-logo2{
     position: relative;
     top: 5em;
