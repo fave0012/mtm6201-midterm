@@ -1,0 +1,276 @@
+.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    margin-left: 1rem;
+}
+
+nav{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    text-align: right;
+    padding-right: 2rem ;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 6rem;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: orangered;
+}
+
+.banner-img{
+    width: 100%;
+    margin-top: 1rem;  
+}
+
+.banner{
+    color: white;
+    position: absolute;
+    top: 10em;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.banner p{
+    font-weight: bold;
+    margin: 3em 0 3em 0;
+}
+
+.banner h1{
+    font-size: 48px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+p.download{
+    font-weight: normal;
+}
+
+.play{
+    background-color: orangered;
+    border-radius: 3em;
+    padding: 1em 2.5em 1em 2.5em;
+    margin-right: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-color: orangered;
+    cursor: pointer;
+}
+
+.app{
+    background: none;
+    border-radius: 3em;
+    padding: 1em 2.5em 1em 2.5em;
+    margin-right: 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-color: white;
+    cursor: pointer;
+}
+
+img.phones{
+    position: relative;
+    bottom: 13em;
+    width: 40%;
+    margin-left: 21em;
+}
+
+h2.how{
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+    bottom: 7em;
+    border-top: lightgray solid;
+    padding-top: 2em;
+}
+
+/* img.login{
+    position: relative;
+    bottom: 15em;
+    margin-left: 7.5em;
+} */
+
+.column-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 90%;
+    position: relative;
+    bottom: 1em;
+}
+
+img.login{
+    position: relative;
+    bottom: 18em;
+    display: grid;
+    left: 5em;
+}
+
+.right-1 h3{
+    color: orangered;
+}
+
+.right-1 h2{
+    font-size: 32px;
+}
+
+.right-1 p{
+    font-size: 1.2rem;
+    color: grey;
+} 
+
+.column-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 90%; 
+    margin-left: 12em;
+    position: relative;
+    bottom: 15em;
+}
+
+img.explore{
+    position: relative;
+    bottom: 15em;
+}
+
+.right-2 h3{
+    color: orangered;
+}
+
+.right-2 h2{
+    font-size: 32px;
+}
+
+.right-2 p{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.column-3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 90%;
+    position: relative;
+    bottom: 22em;
+}
+
+img.payment{
+    position: relative;
+    bottom: 18em;
+    display: grid;
+    left: 5em;
+}
+
+.right-3 h3{
+    color: orangered;
+}
+
+.right-3 h2{
+    font-size: 32px;
+}
+
+.right-3 p{
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.banner2-img{
+    width: 100%;
+    position: relative;
+    bottom: 40em;
+}
+
+.contact{
+    position: relative;
+    bottom: 7em;
+}
+
+.contact h1 p{
+    max-width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15em;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 5);
+    margin-top: 1em;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1em;
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+textarea{
+    resize: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container2{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.questions{
+    position: relative;
+    top: 12em;
+    left: 1.5em;
+}
+
+.questions h2{
+    color: orangered;
+}
+
+.questions p{
+    max-width: 50%;
+    color: grey
+}
+
+.footer-logo{
+    position: relative;
+    top: 5em;
+}
+
+.icons{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 3em;
+}
