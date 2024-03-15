@@ -203,6 +203,29 @@ img.payment{
     bottom: 40em;
 }
 
+.footer-1{
+    position: relative;
+    bottom: 40em;
+}
+
+.footer-logo1{
+    position: relative;
+    top: 5em;
+}
+
+.icons1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer1 p{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 3em;
+}
+
 .contact{
     position: relative;
     bottom: 7em;
@@ -257,12 +280,12 @@ textarea{
     color: grey
 }
 
-.footer-logo{
+.footer-logo2{
     position: relative;
     top: 5em;
 }
 
-.icons{
+.icons2{
     display: block;
     margin-left: auto;
     margin-right: auto;
